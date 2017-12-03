@@ -6,10 +6,11 @@
 
 /*navigation*/
 .topnav {
-  overflow: hidden;
-  background-color: #fff;
-    box-shadow:0px 2px 2px black;
-  
+ overflow: hidden;
+ background-color: #fff;
+ box-shadow:0px 2px 2px black;
+ position:sticky;
+ top:0;
 }
 
 .topnav a {
@@ -68,7 +69,6 @@
     height: 35%; 
 
     /* Definicao da escala da imagen */
-	margin-top:0.1%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ body, html {
 body {
 	background: white;
 	font-family: Helvetica, sans-serif;
-	font-size: 90%;
+	font-size: 16px;
 	color: black;
 }
 
@@ -120,7 +120,7 @@ a:hover {
 
 section{
 	width: 100%;
-	background:#101A1E;
+	background:white;
 	
 }
 
@@ -135,15 +135,7 @@ article{
 
 }
 
-article h2{
-	margin-top: 7%;
-		text-align: center;
-	font-family:impact;
-	margin-top:10px;
-	margin-bottom:5px;
-	color:#CD3333;
-	font-size:35px;
-}
+
 /*Rodapé da página*/
 footer {
 	clear: both;
@@ -151,302 +143,11 @@ footer {
 	border-top: 2px solid #ddd;
 	text-align: center;
 	color: #CD3333;
-	position:absolute;
+	position:relative;
     bottom:0;
 	width:100%;
     padding-bottom:0.6%;
 	
 }
 
-/*Pagina Fatec*/
 
-article img {
-	
-	margin-top: 5px;
-	width: 20px;
-
-	height:20px;
-
-}
-
-.fatecarticle{
-	width:35%;
-	float:right;
-	background:#fff;
-	margin-right: 10%;
-	text-align: justify;
-	font-size: 17px;
-
-}
-
-.fatecarticle img{
-	margin-top: 15px;
-	width: 480px;
-
-	height:410px;
-
-}
-
-.fatecarticle h2{
-	text-align: center;
-	font-family:impact;
-	color:#CD3333;
-}
-
-
-.fatecarticle p{
-	font-size: 1em;
-
-}
-
-
-.fatecaside { 
-		width:35%;
-	float: left;
-	background:#fff;
-	margin-left: 10%;
-	text-align: justify;
-	font-size: 17px;
-}
-
-.fatecaside img{
-	margin-top: 5px;
-	width: 540px;
-
-	height:400px;
-}
-
-.fatecaside h2{
-	text-align: center;
-	font-family:impact;
-	color:#CD3333;
-}
-
-
-.fatecaside p{
-	font-size: 1em;
-
-}
-/*Pagina Fatec*/
-
-/* Home */
-.homearticle{
-	width:35%;
-	float:right;
-	background:#fff;
-	margin-right: 10%;
-	text-align: justify;
-	font-size: 17px;
-
-}
-
-.homearticle img{
-	margin-top: 15px;
-	width: 470px;
-
-	height:260px;
-
-}
-
-.homearticle h2{
-	text-align: center;
-	font-family:impact;
-	color:#FF404C;
-}
-
-
-.homearticle p{
-	font-size: 1em;
-
-}
-
-.homeaside { 
-		width:35%;
-	float: left;
-	background:#fff;
-	margin-left: 10%;
-	text-align: justify;
-	font-size: 17px;
-}
-
-.homeaside img{
-	margin-top: 21px;
-	width: 200px;
-    height:340px;
-    float:right;
-	margin-left:15px;
-	
-}
-
-.homeaside h2{
-	text-align: center;
-	font-family:impact;
-	color:#FF404C;
-}
-
-
-.homeaside p{
-	font-size: 1em;
-
-}
-
-/* Home */
-
-/*materias*/
-.materiasarticle{
-	width:78%;
-	float:center;
-	background:#fff;
-	margin-right: 10%;
-	text-align: justify;
-	font-size: 17px;
-
-}
-
-.materiasarticle img{
-	margin-top: 15px;
-	width: 450px;
-	margin-left:10px;
-
-	height:350px;
-
-}
-
-.materiasarticle h2{
-	text-align: center;
-	font-family:impact;
-	margin-top:10px;
-	margin-bottom:5px;
-	color:#CD3333;
-}
-
-
-.materiasarticle p{
-	font-size: 1em;
-
-}
-
-.portuguesarticle{
-	width:20%;
-	float:left;
-	background:#fff;
-	margin-top:5px;
-	text-align: justify;
-	font-size: 12px;
-
-}
-
-.portuguesarticle2{
-	width:23%;
-	float:center;
-	background:#fff;
-	margin-top:5px;
-	margin-left:500px;
-	text-align: justify;
-	font-size: 12px;
-
-}
-
-.portuguesarticle3{
-	width:12%;
-	float:right;
-	background:#fff;
-	margin-top:5px;
-	margin-right:400px;
-
-	
-	text-align: justify;
-	font-size: 12px;
-
-}
-
-.conteudoarticle{
-	width:90%;
-	float:center;
-	background:#fff;
-	margin-top:5px;
-	text-align: justify;
-	font-size: 15px;
-	
-
-}
-.conteudoarticle img{
- margin-left:10px;
- margin-bottom:10px;
-  
-float:right;
-
-}
-
-/*algoritmo*/
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: center;
-    width: 180px;
-	
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: left;
-	
-	
-}
-
-span .legenda{
-	float:top;
-}
-
-
-/*materias*/
-
-
-
-.contatoarticle{
-	width:78%;
-	float:center;
-	background:#fff;
-	margin-left: 10%;
-	text-align: center;
-	
-
-}
-.contatoarticle img{
-	float:left;
-width:300px;
-height:300px;
-margin-left:50px;
-
-}
-
-
-.contatofooter {
-	clear: both;
-	background:#333;
-	padding: 10px;
-	border-top: 4px solid #ddd;
-	text-align: center;
-	color: #CD3333;
-	margin-top:37%;
-	
-}
-.sobrefooter {
-	clear: both;
-	background:#333;
-	padding: 10px;
-	border-top: 4px solid #ddd;
-	text-align: center;
-	color: #CD3333;
-	margin-top:13%;
-	
-}
