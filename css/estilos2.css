@@ -101,12 +101,21 @@ body {
 /*fontes */
 p {
 	text-indent:35px;
+	font-size: 1.5vw;
 	font-size: 3vh;
 	line-height: 1.3em;
 }
 h2{
+	text-align:left;
+font-size:3.5vh;
+padding:2%;
+margin-top:1%;
+}
+h2.page{
 	text-align:center;
 font-size:4.0vh;
+padding:2%;
+margin-top:1%;
 }
 
 ul {
@@ -118,12 +127,11 @@ definição dos links
 */
 a:link, a:visited {
 	color: #333333;
-	text-decoration:none;
 
 }
 a:hover {
 	
-	color:#CD3333;
+	color:#1CA5B8;
 }
 
 
@@ -132,8 +140,8 @@ a:hover {
 /*Style*/
 
 section{
-    margin: 0% 0% 0% 8.5%;
-	width: 85%;
+    margin: 0% 10% 0% 10%;
+	width: 80%;
 	background:white;
 	text-align:justify;
 	font-size: 3em;
@@ -145,7 +153,27 @@ section{
 width:100%;
 
 }
-
+#fatec{
+width:100%;
+}
+img.fatec{
+float:right;
+padding:1.5%;
+width:45%;
+height:45%;
+}
+img.fatec2{
+	float:left;
+padding:1.5%;
+width:50%;
+height:50%;
+}
+#sistemas{
+width:100%
+}
+#TI{
+width:100%
+}
 /*Rodapé da página*/
 footer {
 	clear: both;
