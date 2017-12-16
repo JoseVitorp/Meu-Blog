@@ -98,7 +98,7 @@ body {
 	color: black;
 }
 
-
+/*fontes */
 p {
 	text-indent:35px;
 	font-size: 3vh;
@@ -131,7 +131,6 @@ a:hover {
 
 /*Style*/
 
-
 section{
     margin: 0% 0% 0% 8.5%;
 	width: 85%;
@@ -141,6 +140,11 @@ section{
 
 }
 
+/*blocos de conteudo*/
+#home{
+width:100%;
+
+}
 
 /*Rodapé da página*/
 footer {
