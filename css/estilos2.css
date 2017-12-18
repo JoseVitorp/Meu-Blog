@@ -104,6 +104,8 @@ p {
 	font-size: 1.5vw;
 	font-size: 3vh;
 	line-height: 1.3em;
+   word-spacing: -0.1em;
+
 }
 h2{
 	text-align:center;
@@ -267,7 +269,7 @@ img.ti4{
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 4vw 'Cookie', cursive;
 	margin: 0;
 }
 
@@ -281,6 +283,7 @@ img.ti4{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
+
 }
 
 .footer-distributed .footer-links a{
@@ -288,6 +291,7 @@ img.ti4{
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+	font-size:2vh;
 }
 
 .footer-distributed .footer-company-name{
@@ -318,7 +322,7 @@ img.ti4{
 
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
-	line-height: 38px;
+	line-height: 35px;
 }
 
 .footer-distributed .footer-center p{
@@ -326,6 +330,7 @@ img.ti4{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
+font-size:2vh;
 }
 
 .footer-distributed .footer-center p span{
@@ -337,7 +342,9 @@ img.ti4{
 
 .footer-distributed .footer-center p a{
 	color:  #5383d3;
-	text-decoration: none;;
+	text-decoration: none;
+	font-size:2vh;
+
 }
 
 
